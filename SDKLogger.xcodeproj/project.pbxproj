@@ -11,6 +11,13 @@
 		014A62C2296627D60078DCF7 /* SDKLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014A62B7296627D50078DCF7 /* SDKLogger.framework */; };
 		014A62C7296627D60078DCF7 /* SDKLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A62C6296627D60078DCF7 /* SDKLoggerTests.swift */; };
 		014A62C8296627D60078DCF7 /* SDKLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 014A62BA296627D50078DCF7 /* SDKLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		014A62DA296629950078DCF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A62D9296629950078DCF7 /* AppDelegate.swift */; };
+		014A62DC296629950078DCF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A62DB296629950078DCF7 /* SceneDelegate.swift */; };
+		014A62DE296629950078DCF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A62DD296629950078DCF7 /* ViewController.swift */; };
+		014A62E1296629950078DCF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014A62DF296629950078DCF7 /* Main.storyboard */; };
+		014A62E3296629970078DCF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014A62E2296629970078DCF7 /* Assets.xcassets */; };
+		014A62E6296629970078DCF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014A62E4296629970078DCF7 /* LaunchScreen.storyboard */; };
+		014A62EC296630430078DCF7 /* SDKLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A62EB296630430078DCF7 /* SDKLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,15 @@
 		014A62BB296627D50078DCF7 /* SDKLogger.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKLogger.docc; sourceTree = "<group>"; };
 		014A62C1296627D60078DCF7 /* SDKLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		014A62C6296627D60078DCF7 /* SDKLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKLoggerTests.swift; sourceTree = "<group>"; };
+		014A62D7296629950078DCF7 /* SDKLoggerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKLoggerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014A62D9296629950078DCF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		014A62DB296629950078DCF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		014A62DD296629950078DCF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		014A62E0296629950078DCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		014A62E2296629970078DCF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		014A62E5296629970078DCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		014A62E7296629970078DCF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014A62EB296630430078DCF7 /* SDKLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		014A62D4296629950078DCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				014A62B9296627D50078DCF7 /* SDKLogger */,
 				014A62C5296627D60078DCF7 /* SDKLoggerTests */,
+				014A62D8296629950078DCF7 /* SDKLoggerExample */,
 				014A62B8296627D50078DCF7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				014A62B7296627D50078DCF7 /* SDKLogger.framework */,
 				014A62C1296627D60078DCF7 /* SDKLoggerTests.xctest */,
+				014A62D7296629950078DCF7 /* SDKLoggerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +98,7 @@
 			children = (
 				014A62BA296627D50078DCF7 /* SDKLogger.h */,
 				014A62BB296627D50078DCF7 /* SDKLogger.docc */,
+				014A62EB296630430078DCF7 /* SDKLogger.swift */,
 			);
 			path = SDKLogger;
 			sourceTree = "<group>";
@@ -83,6 +109,20 @@
 				014A62C6296627D60078DCF7 /* SDKLoggerTests.swift */,
 			);
 			path = SDKLoggerTests;
+			sourceTree = "<group>";
+		};
+		014A62D8296629950078DCF7 /* SDKLoggerExample */ = {
+			isa = PBXGroup;
+			children = (
+				014A62D9296629950078DCF7 /* AppDelegate.swift */,
+				014A62DB296629950078DCF7 /* SceneDelegate.swift */,
+				014A62DD296629950078DCF7 /* ViewController.swift */,
+				014A62DF296629950078DCF7 /* Main.storyboard */,
+				014A62E2296629970078DCF7 /* Assets.xcassets */,
+				014A62E4296629970078DCF7 /* LaunchScreen.storyboard */,
+				014A62E7296629970078DCF7 /* Info.plist */,
+			);
+			path = SDKLoggerExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +175,23 @@
 			productReference = 014A62C1296627D60078DCF7 /* SDKLoggerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		014A62D6296629950078DCF7 /* SDKLoggerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014A62E8296629970078DCF7 /* Build configuration list for PBXNativeTarget "SDKLoggerExample" */;
+			buildPhases = (
+				014A62D3296629950078DCF7 /* Sources */,
+				014A62D4296629950078DCF7 /* Frameworks */,
+				014A62D5296629950078DCF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKLoggerExample;
+			productName = SDKLoggerExample;
+			productReference = 014A62D7296629950078DCF7 /* SDKLoggerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +206,9 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					014A62C0296627D60078DCF7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					014A62D6296629950078DCF7 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -168,6 +228,7 @@
 			targets = (
 				014A62B6296627D50078DCF7 /* SDKLogger */,
 				014A62C0296627D60078DCF7 /* SDKLoggerTests */,
+				014A62D6296629950078DCF7 /* SDKLoggerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +248,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		014A62D5296629950078DCF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014A62E6296629970078DCF7 /* LaunchScreen.storyboard in Resources */,
+				014A62E3296629970078DCF7 /* Assets.xcassets in Resources */,
+				014A62E1296629950078DCF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014A62EC296630430078DCF7 /* SDKLogger.swift in Sources */,
 				014A62BC296627D50078DCF7 /* SDKLogger.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +278,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		014A62D3296629950078DCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014A62DE296629950078DCF7 /* ViewController.swift in Sources */,
+				014A62DA296629950078DCF7 /* AppDelegate.swift in Sources */,
+				014A62DC296629950078DCF7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,6 +297,25 @@
 			targetProxy = 014A62C3296627D60078DCF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		014A62DF296629950078DCF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014A62E0296629950078DCF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		014A62E4296629970078DCF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014A62E5296629970078DCF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		014A62C9296627D60078DCF7 /* Debug */ = {
@@ -394,6 +495,7 @@
 		014A62CF296627D60078DCF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +511,7 @@
 		014A62D0296627D60078DCF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -416,6 +519,60 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciandt.SDKLoggerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		014A62E9296629970078DCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SDKLoggerExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciandt.SDKLoggerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		014A62EA296629970078DCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SDKLoggerExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciandt.SDKLoggerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +604,15 @@
 			buildConfigurations = (
 				014A62CF296627D60078DCF7 /* Debug */,
 				014A62D0296627D60078DCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014A62E8296629970078DCF7 /* Build configuration list for PBXNativeTarget "SDKLoggerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014A62E9296629970078DCF7 /* Debug */,
+				014A62EA296629970078DCF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
